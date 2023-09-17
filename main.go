@@ -40,8 +40,6 @@ func run() error {
 		return err
 	}
 
-	log.Print(string(b))
-
 	data := Data{}
 	err = json.Unmarshal(b, &data)
 	if err != nil {
@@ -96,7 +94,7 @@ func check(domain string) error {
 	// 10 days
 	targetTime := time.Now().Add(24 * time.Hour * 10)
 	if result.Domain.ExpirationDateInTime.Before(targetTime) {
-		log.Printf("ℹ️ %s may expire soon", domain)
+		log.Printf("ℹ️  %s may expire soon", domain)
 		return nil
 	}
 

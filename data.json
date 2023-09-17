@@ -1,0 +1,44 @@
+{
+	"words": [
+		{
+			"text": "association",
+			"location": 0
+		},
+		{
+			"text": "strategy",
+			"location": 0
+		},
+		{
+			"text": "temperature",
+			"location": 0
+		},
+		{
+			"text": "difficulty",
+			"location": 0
+		},
+		{
+			"text": "television",
+			"location": 0
+		},
+		{
+			"text": "championship",
+			"location": 1
+		},
+		{
+			"text": "psychology",
+			"location": 1
+		},
+		{
+			"text": "complaint",
+			"location": 1
+		},
+		{
+			"text": "painting",
+			"location": 1
+		},
+		{
+			"text": "distribution",
+			"location": 1
+		}
+	]
+}

@@ -44,7 +44,7 @@ func (s *Service) run(ctx context.Context) error {
 			domain := fmt.Sprintf("%s%s.com", firstWord.Text, secondWord.Text)
 			msg, err := s.check(ctx, domain)
 			if err != nil {
-				return err
+				msg = fmt.Sprintf("☢️  %s was not able to be retrieved: %v", domain, err)
 			}
 
 			log.Print(msg)
